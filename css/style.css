@@ -1,0 +1,79 @@
+
+        body{
+                height: 100vh;
+                background-image: url("../Download\ Purple\ yellow\ gradient\ background_\ Abstract\ texture.\ Vector\ illustration.jpg");
+                background-size: cover;
+                font-size: 1.2rem;
+
+        }
+        #Header{ 
+                padding-top: 20px;
+        }
+        
+
+
+             .MONITORING{
+                display: flex;
+                width: 100%;
+                height: 400px;
+             }
+
+             .AirMONITORING{
+                margin: auto;
+                width: 50%;
+                border: 3px solid #01fafa;
+                padding: 10px;
+                float: left;
+
+             }
+
+             .WaterMONITORING{
+                margin: auto;
+                width: 50%;
+                border: 3px solid #00ffff;
+                padding: 10px;
+                float: right;
+             }
+             table, th, td {
+                border: 1px solid rgb(0, 0, 0);
+                border-collapse: collapse;
+              }
+              th, td {
+                background-color: #96D4D4;
+              }
+             
+             .PARA-SENSTABLE{
+                padding:0 100px;
+                display:inline-block;
+                width: 100%;
+                border: 1px solid rgb(0, 0, 0);
+                border-collapse: collapse;
+            }
+            
+            .WaterTABLE{
+                width: 50%;
+                float: left;
+                background-color: #01ffff;
+
+            }
+             .AirTABLE{
+                width: 50%;
+                float: right;
+                background-color: #00ffff;
+             }
+            
+
+
+             .UPDATE{
+                margin: auto;
+                width: 30%;
+                border: 3px solid rgb(0, 0, 0);
+                padding: 10px;
+                display: inline-block;
+                
+             }
+            
+             
+
+
+        

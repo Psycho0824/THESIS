@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+
+<Head>
+    <title>SanVicenteAirandWaterMonitoring</title>
+    
+    <link rel="icon" href="data:image/jpeg;base64,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"> 
+    <!--ICON PARA SA LINK-->
+
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+</Head>
+
+<body>
+
+<!--start of the heading 1-->
+    <h1 align="center" id="Header">This is San Vicente air and water monitoring made by Pangasinan State University Urdaneta CpE Students
+    </h1> 
+</div>
+
+<br>
+<!--end of heading 1-->
+
+    <!--Start of the monitoring-->
+    <h3 align="center">This website is for Air and water quality monitoring that uses sensors that will gather and shows the range of air and water if it is in the normal range or polluted, The designated sensors are place in the bridge of San Vicente Urdanate, Pangasinan. Precautions are indicated to prevent any possible health risk to the residents of the San Vicente Urdanate, Pangasinan.</h3>
+
+
+    <h1 align="center">ON GOING MONITORING (every 15mins UPDATE)</h1>
+
+    <div class="MONITORING">
+
+        <div class="AirMONITORING">
+            <h2>Air Monitoring</h2>
+
+            <h3>Particulate Matter</h3>
+            <b>(GRAPH at label ng changes every 15mins)</b>
+
+            <h3>Gas Sensor</h3>
+            <b>(GRAPH at label ng changes every 15mins)</b>
+
+            <h3>Ozone Sensor</h3>
+            <b>(GRAPH at label ng changes every 15mins)</b>
+        </div>
+    </div>
+
+    <div class="MONITORING">    
+            <div class="WaterMONITORING">
+            <h2>Water Monitoring</h2>
+
+            <h3>Conductivity Sensor</h3>
+            <b>(GRAPH at label ng changes every 15mins)</b>
+
+            <h3>pH Sensor</h3>
+            <b>(GRAPH at label ng changes every 15mins)</b>
+
+            <h3>Turbidity Sensor</h3>
+            <b>(GRAPH  at label ng changes every 15mins)</b>
+        </div>
+    </div>
+    <!--precaustion safety-->
+    <div class="safe">
+        <div class="watersafety">
+            <table>
+                <tr>
+                    <th>Water Sensor Precautions</th>
+                    <th>Air Sensor Precautions</th>
+                </tr>
+
+                <tr>
+                    <td>Conductivity Sensor : 600 mg/L above
+                        Possible Causes/Risks:  may arise due to industrial discharges, agricultural runoff, or other sources introducing ions into the water.
+                        Safety Precautions: Proper calibration and maintenance are essential. Ensure proper handling of chemicals.
+                    </td>
+                    <td>
+                        Particulate Matter (PM) Sensor
+                        Range for Pollution:  60(lagay mo Yung ug m chuchu) above 
+                        Possible Causes/Risks: may arise due tovehicle emissions, industrial processes, construction activities, and burning of fossil fuels.
+                        Safety Precautions: Regular maintenance and calibration of the sensor are essential.
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        pH Sensor: 6.5 to 8.5 may indicate pollution
+                        Possible Causes/Risks:  may arise due to acid rain, industrial discharges, or agricultural runoff. 
+                        Safety Precautions: Calibrate the pH sensor regularly. Ensure proper handling of chemicals.
+                    </td>
+                    <td>
+                        Gas Sensor 
+                        Range for Pollution: Depends on the specific gas being measured (e.g., carbon monoxide, nitrogen dioxide, sulfur dioxide). 
+                        Possible Causes/Risks: may arise due to vehicle exhaust, industrial emissions, and other combustion processes.
+                        Safety Precautions: Ensure proper ventilation and installation of the sensor
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Turbidity Sensor: 50 mg/L (Above) may indicate pollution.
+                        Possible Causes/Risks: may arise due to soil erosion, industrial discharges, or other suspended particles in water.
+                        Safety Precautions: Regular calibration and maintenance. Ensure proper handling of chemicals if needed for calibration
+                    </td>
+                    <td>
+                        Gas Sensor 
+                        Range for Pollution: Depends on the specific gas being measured (e.g., carbon monoxide, nitrogen dioxide, sulfur dioxide). 
+                        Possible Causes/Risks: may arise due to vehicle exhaust, industrial emissions, and other combustion processes.
+                        Safety Precautions: Ensure proper ventilation and installation of the sensor.
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        ALERT: Increase in all sensors advices that all residents must avoid water until the range of the sensors go back into safety range.
+                    </td>
+                    <td>
+                        ALERT: Increase in all sensors advices that all residents must wear facemask.
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+   <br>
+   <br>
+   <br>
+
+<!--outttttttttttttttttt start ng update -->
+    <div class="UPDATE">
+        <div class="DAILY">
+            <h1>DAILY UPDATE</h1> 
+        </div>
+    </div>
+    
+    <div class="UPDATE">
+        <div class="WEEKLY">
+            <h1>WEEKLY UPDATE</h1> 
+        </div>
+    </div>  
+
+
+    <div class="UPDATE">
+        <div class="MONTHLY">
+            <h1>MONTHLY UPDATE</h1> 
+        </div>
+    </div>  
+
+
+    <!--start of parameters and sensors-->
+<br>
+<br> 
+<br>
+
+<h1 align="center">This are the Sensors and Parameters used for Air & Water Monitoring that <br> 
+    DENR and DOST have given and recommended for our monitoring</h1>
+
+    <div class="PARA-SENStable">
+        
+        <div class="AirTABLE">  
+            <table > 
+            <tr>
+                <th>Air Sensors</th>
+                <th>Parameters</th>
+            </tr>
+
+            <tr>
+                    <td>Particulate Matter</td>
+                    <td>Standard: 50 µg/m3</td>
+            </tr>
+
+            <tr>
+                <td>Gas Sensor</td>
+                <td>Standard: between 400 - 1000ppm</td>
+            </tr>
+
+            <tr> 
+                <td>Ozone Sensor</td>
+                <td>Standard: between 10ppm and 1000ppm or 60 µg/m3</td>
+            </tr>
+            </table>
+        </div>  
+    </div> 
+
+    <div class="PARA-SENStable">   
+
+        <div class="WaterTABLE">
+        <table > 
+        <tr>
+            <th>Water Sensors</th>
+            <th>Parameters</th>
+        </tr>
+
+        <tr>
+            <td>Conductivity Sensor</td>
+            <td>Standard Level: 500 mg/L</td>
+        </tr>
+
+        <tr>
+            <td>pH Sensor </td>
+            <td>Standard Level: 6.5 - 8.5</td> 
+        </tr>
+        <tr>
+            <td>Turbidity Sensor </td>
+            <td>Standard Level: 50mg/L</td>
+        </tr>
+        </table>
+        </div>
+
+    </div> 
+
+<h1 align="center">Sensors Description</h1>
+
+     <div id="ParticulateMatter-SENSOR">
+        <ul>
+            <li>Particulate Matter</li>
+            <p>Particulate Matter (PM) refers to tiny, solid particles or liquid droplets suspended in the air. These particles vary in size and composition, and they can have diverse sources, including vehicle emissions, industrial processes, and natural sources like dust and pollen. Monitoring particulate matter is crucial for assessing air quality and potential health risks, as fine particles can penetrate deep into the respiratory system.
+     </div>
+
+     <div id="Gas-SENSOR">
+        <ul>
+            <li>Gas Sensor</li>
+            <p>A gas sensor is a device designed to detect the presence or concentration of gases in the surrounding environment. These sensors utilize various technologies, such as electrochemical, semiconductor, and infrared methods, to identify and measure specific gases. Gas sensors find applications in diverse fields, including environmental monitoring, industrial safety, and healthcare, helping to ensure safety and optimize processes by providing real-time data on gas concentrations.</p>
+        </ul>
+     </div>
+
+     <div id="Ozone-SENSOR">
+        <ul>
+            <li>Ozone sensor</li>
+            <p>An ozone sensor is a specialized device that detects and measures the concentration of ozone (O3) in the air. Ozone is a reactive gas composed of three oxygen atoms and is present in the Earth's atmosphere. While beneficial in the stratosphere, ground-level ozone can be harmful to human health and the environment. Ozone sensors are essential tools for monitoring air quality and ensuring compliance with regulatory standards, especially in urban areas and industrial settings.</p>
+        </ul>
+     </div>
+
+     <div id="Conductivity-SENSOR">
+        <ul>
+            <li>Conductivity Sensor</li>
+            <p>A conductivity sensor, also known as an electrical conductivity sensor, measures the ability of a solution to conduct an electric current. It is particularly useful in assessing the concentration of dissolved ions, such as salts or minerals, in liquids. Conductivity sensors find applications in water quality monitoring, industrial processes, and environmental studies. By measuring the conductivity of a solution, these sensors provide insights into its chemical composition, helping to determine purity, salinity, or contamination levels.</p>
+        </ul>
+     </div>
+
+     <div id="pH-SENSOR">
+        <ul>
+            <li>pH Sensor</li>
+            <p>A pH sensor is a device designed to measure the acidity or alkalinity of a solution by detecting the concentration of hydrogen ions (H+) in the solution. The pH scale ranges from 0 to 14, with values below 7 indicating acidity, values above 7 indicating alkalinity, and a pH of 7 considered neutral. pH sensors play a crucial role in various fields, including environmental monitoring, water treatment, and scientific research, providing essential information for processes where maintaining a specific pH level is critical.</p>
+        </ul>
+     </div>
+
+     <div id="Turbidity-Sensor">
+        <ul>
+            <li>Turbidity Sensor</li>
+            <p>A turbidity sensor measures the cloudiness or haziness of a fluid caused by the presence of suspended particles, such as sediment, silt, or organic matter. Turbidity is an important parameter in water quality assessment, as it affects the transparency of water and can impact ecosystems. Turbidity sensors find applications in environmental monitoring, water treatment plants, and research studies where the clarity of water is crucial. These sensors help in assessing the degree of water pollution and ensuring the effectiveness of water purification processes.</p>
+        </ul>
+     </div>
+
+
+    <!--end of parameters and sensors-->
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+    
+    
+
+    <a href="mailto:ocampopaulo24@gmail.com">Contact US</a>
+
+
+</body>
+
+</html>
